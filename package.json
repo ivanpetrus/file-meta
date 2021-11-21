@@ -1,0 +1,41 @@
+{
+    "name": "file-meta",
+    "version": "0.0.1",
+    "homepage": "https://stevenwestmoreland.com/projects/office-document-properties.html",
+    "author": "Ivan Petrus",
+    "description": "Read and write file metadata",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ivanpetrus/file-meta.git"
+    },
+    "keywords": [
+        "parse",
+        "clear",
+        "write",
+        "document",
+        "file",
+        "metadata",
+        "properties",
+        "microsoft",
+        "office",
+        "docx",
+        "pptx",
+        "xlsx",
+        "xml"
+    ],
+    "main": "indexDebug.js",
+    "dependencies": {
+        "adm-zip": "^0.5.9",
+        "lodash": "^4.17.20",
+        "pdf-lib": "^1.17.1",
+        "xml2js": "^0.4.23"
+    },
+    "devDependencies": {
+        "chai": "^4.2.0",
+        "mocha": "^8.1.3"
+    },
+    "scripts": {
+        "test": "mocha"
+    },
+    "license": "MIT"
+}
